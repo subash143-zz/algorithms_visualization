@@ -1,0 +1,12 @@
+<h2>Bubble Sort</h2>
+<div class="form-group">
+    <label for="usr">Items:</label>
+    <input type="text" class="form-control" id="usr" [(ngModel)]="itemsInput">
+</div>
+<button type="button" class="btn btn-success" (click)="onSubmit($event)">Submit Inputs</button>
+
+<hr>
+
+<div>
+    <sort-item *ngFor="let item of sortItems" [value]="item.getValue" [selected]="item.isSelected"></sort-item>
+</div>

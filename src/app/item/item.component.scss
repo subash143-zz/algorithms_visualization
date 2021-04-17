@@ -1,0 +1,15 @@
+.item{
+    padding:10px 15px;
+    background-color: maroon;
+    color:white;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 11px gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.selected{
+    background-color: green;
+    transition-duration: 200ms;
+}
