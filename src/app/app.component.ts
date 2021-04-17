@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'sortingvisualization';
   isMobileAgent: boolean = false;
-  menuItems = [new MenuItem("Selection Sort", "/"), new MenuItem("Insertion Sort", "/insertion-sort"), new MenuItem("Bubble Sort", "/bubble-sort")]
+  menuItems = [new MenuItem("Insertion Sort", "/insertion-sort"), new MenuItem("Bubble Sort", "/bubble-sort")]
 
   
   constructor(){
